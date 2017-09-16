@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JAMES' CRTYSTAL GAME</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="head">
+            <h1 class="title-game">Let's Play a Game: Dragon Fighter! </h1>
+        </div>
+        <div class="direct">
+            <h3>Directions:</h3>
+            <br>
+            <p>You get a random goal number at the start of the game.</p>
+            <p>There are four weapons below. By clicking on a weapon, you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to the random number (boss's health). Consequentially, you lose the game if your total score goes above the random number (boss' health).</p>
+            <p>The value of each weapon is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each weapon.</p>
+        </div>
+    </div>
+
+<div class="boss">
+
+<img src="assets/images/dragonboss.jpg" height="250px" width="250px" id="d-boss">
+<p class="dragon-img"></p>
+<div id="heads-up-display" class="health">
+
+<h5 id="total-health"></h5>
+<h5 id ="yourScore">Damage Dealt: 0 </h5>
+<h5 id="wins">Wins: 0 </h5>
+<h5 id="losses">Losses: 0 </h5>
+
+
+</div>
+
+</div>
+
+
+    <section class="pics">
+
+		<div><img src="assets/images/rpg.jpg" id ="rpg" class="weapon" height="200px" width="200px"><p class="items">RPG</p></div>
+		<div><img src="assets/images/hsubmach.jpg" id="ak74" class="weapon" height="200px" width="200px"><p class="items">AK-74 U</p></div>
+		<div><img src="assets/images/sniper.jpg" id ="sniper" class="weapon" height="200px" width="200px"><p class="items">Sniper</p></div>
+		<div><img src="assets/images/phoenixbox.jpg" id ="bow" class="weapon" height="200px" width="200px"><p class="items">Phoenix Bow</p></div>
+
+    </section>
+
+</body>
+
+</html>

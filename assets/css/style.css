@@ -1,0 +1,54 @@
+
+/* Laptop and Browser */
+
+body{
+	text-align: center;
+	background-image: url("http://lightingthevoid.com/wp-content/uploads/2014/08/badass-background.jpg");
+	color:white;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.5rem;
+}
+h1,h3,h5,p{
+	opacity:0.5;
+	color:white;
+}
+h5{
+	padding:10px;
+}
+.title-game{
+	margin-top: 10%;
+}
+.boss{
+	margin-top: 2%;
+}
+.pics{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding:1%;
+}
+.items{
+	padding:2%;
+}
+.weapon{
+	padding:2%;
+}
+.direct{
+	margin:4%;
+}
+.heading{
+	text-align: center;
+	width: 40%;
+	margin-left: 30%;
+}
+.health{
+	margin:2%;
+}
+#rpg, #ak74, #sniper, #bow{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#rpg:hover{background-color: red;}
+#ak74:hover{background-color: blue;}
+#sniper:hover{background-color: green;}
+#bow:hover{background-color: purple;}
